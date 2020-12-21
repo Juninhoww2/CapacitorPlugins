@@ -1,0 +1,8 @@
+{
+  "name": "CapacitorPlugins",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
+  "type": "angular"
+}

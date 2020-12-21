@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">CapacitorPlugins</string>
+    <string name="title_activity_main">CapacitorPlugins</string>
+    <string name="package_name">com.devactic.capacitorplugins</string>
+    <string name="custom_url_scheme">com.devactic.capacitorplugins</string>
+    <string name="server_client_id">688892152565-e54nsq87kf0o56rng602dat82uvo8aq8.apps.googleusercontent.com</string>
+</resources>

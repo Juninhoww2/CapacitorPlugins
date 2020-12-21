@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "688892152565",
+    "project_id": "capacitorpluginsmy",
+    "storage_bucket": "capacitorpluginsmy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:688892152565:android:3f53c02469b2e1757a53bc",
+        "android_client_info": {
+          "package_name": "com.capacitorplugins.capalogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "688892152565-e54nsq87kf0o56rng602dat82uvo8aq8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBi4blMjGsUo2jlCdZfoC5FrTqbLmgRmZc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "688892152565-e54nsq87kf0o56rng602dat82uvo8aq8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:688892152565:android:1ed8cbc035e4c85c7a53bc",
+        "android_client_info": {
+          "package_name": "com.devactic.capacitorplugins"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "688892152565-e54nsq87kf0o56rng602dat82uvo8aq8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBi4blMjGsUo2jlCdZfoC5FrTqbLmgRmZc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "688892152565-e54nsq87kf0o56rng602dat82uvo8aq8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
