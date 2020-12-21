@@ -1,36 +1,36 @@
-<ion-header fullscreen>
+<ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Devdactic Sign-in
+      Tab 1
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-  <ion-button expand="block" (click)="doLogin" color="danger" *ngIf="!isGoogleLogin">
+<ion-content [fullscreen]="true" class="ion-margin ion-padding">
+  <ion-button expand="block" (click)="doLogin()" color="danger" *ngIf="!isGoogleLogin">
     <ion-icon slot="start" name="logo-google"></ion-icon>
-    Login with Google
+    LogIn with Google
   </ion-button>
 
   <div *ngIf="isGoogleLogin">
     <ion-card>
-      <ion-card-header>
-        <ion-card-title class="ion-text-center"><b>{{user.diplayName}}</b></ion-card-title>
-      </ion-card-header>
+  <ion-card-header>
+    <ion-card-title class="ion-text-center"><b>{{user.displayName}}</b></ion-card-title>
+   
+  </ion-card-header>
 
-      <ion-card-content>
-        <ion-img [src]="user.photoURL" style="border-radius: 1px;"></ion-img>
-        <ion-item>
-          <ion-label>email:</ion-label>
-          <span>{{user.email}}</span>
-        </ion-item>
-      </ion-card-content>
-    </ion-card>
+  <ion-card-content>
+    <ion-img [src]="user.photoURL" style="border-radius: 1px;"></ion-img>
+    <ion-item>
+      <ion-label>email:</ion-label>
+      <span>{{user.email}}</span>
+    </ion-item>
+  </ion-card-content>
+</ion-card>
+  
+  <ion-button expand="block" (click)="logout()" color="danger" *ngIf="isGoogleLogin">
+    Log Out
+  </ion-button>
+</div>
 
-    <ion-button expand="block" (click)="logout()" color="danger" *ngIf="isGoogleLogin">
-      Log Out
-    </ion-button>
-  </div>
-
-    
 </ion-content>
